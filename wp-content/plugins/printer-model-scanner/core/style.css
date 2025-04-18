@@ -1,0 +1,26 @@
+.scanner-bar {
+    height: 30px;
+    width: 80%;
+    background: #ccc;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.scanner-fill {
+    height: 100%;
+    width: 0;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    transition: width 0.5s linear;
+}
+
+.scan-step span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
